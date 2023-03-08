@@ -13,6 +13,7 @@ int main(int argc, char **argv) {
 
     board_t b;
 
+
     if (strcmp(argv[1], "empty") == 0) {
         char* argv[] = {"_", "_", "_", "_", "_", "_", "_", "_", "_"};
         init_board(b, argv);
@@ -81,3 +82,4 @@ int main(int argc, char **argv) {
     
     return 0;
 }
+
